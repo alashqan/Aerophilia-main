@@ -36,6 +36,9 @@ const signup = () => {
                 <div >
                     <input type="text" placeholder='Event details' className='field' required/>
                 </div>
+                <div >
+                    <input type="tpassword" placeholder='Enter password' className='field' required/>
+                </div>
                 <div className='button-container'>
                     <input type="submit" placeholder='Submit' className="button" required/>
                 </div>
